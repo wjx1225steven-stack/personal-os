@@ -1,0 +1,55 @@
+# 系统和编辑器文件
+.DS_Store
+.AppleDouble
+._*
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+/tmp/
+
+# 个人任务、导出记录和本地备份
+/_backups/
+/backups/
+/exports/
+/private/
+/data/
+personal-os-backup*
+personal-os-recovery*
+# 当前项目无需提交 JSON。以后添加公开配置时，按文件审查后例外放行。
+*.json
+*.bak
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# 本地配置和凭据
+.env
+.env.*
+*.local
+.npmrc
+.netrc
+.ssh/
+.aws/
+.codex/
+*credentials*
+*secrets*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+
+# 可重新生成的文件
+node_modules/
+/dist/
+/coverage/
